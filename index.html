@@ -15,14 +15,14 @@
     </header>
     <main class="main-page">
       <section class="block-add">
-        <h3 class="block-add__title">Add Item</h3>
+        <h3 class="block-list__title block-add__title">Add Item</h3>
         <div class="block-add__wrapper">
-          <input id="new-task" class="block-add__input task" type="text">
+          <input id="new-task" class="todo__element-text task" type="text">
           <button class="block-add__button button">Add</button>
         </div>
       </section>
       <section class="block-todo">
-        <h3 class="block-todo__title">Todo</h3>
+        <h3 class="block-list__title">Todo</h3>
         <ul id="todo-elements">
           <li class="block-list__element element">
             <input class="todo__element-checkbox" type="checkbox">
@@ -33,7 +33,7 @@
               <img src="./remove.svg" class="todo__element-img" alt="">
             </button>
           </li>
-          <li class="block-list__element element editMode">
+          <li class="block-list__element element block-list__element-action">
             <input class="todo__element-checkbox" type="checkbox">
             <label class="todo__element-name task">Go Shopping</label>
             <input type="text" value="go shopping" class="todo__element-text task">
@@ -45,7 +45,7 @@
         </ul>
       </section>
       <section class="block-completed">
-        <h3 class="block-completed__title">Completed</h3>
+        <h3 class="block-list__title">Completed</h3>
         <ul id="completed-tasks">
           <li class="block-list__element element">
             <input class="todo__element-checkbox" type="checkbox" checked>
